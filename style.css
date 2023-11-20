@@ -1,0 +1,71 @@
+@import url(https://fonts.googleapis.com/css?family=Pixelify+Sans);
+
+
+*{
+  font-family: sans-serif;
+  
+}
+
+p{
+ font-family: 'Pixelify Sans';
+  text-align:center;
+  font-size: 20px;
+  margin:0 auto;
+  
+}
+
+#trianswer{
+  margin: 0 auto;
+  style:flex;
+  width:200px;
+  height: 25px;
+  border: 1px solid black;
+  
+  text-align: center;
+}
+
+label, input{
+  display:block;
+  justify-content: space-between;
+ text-align: center;
+  margin: 0 auto;
+  height: 25px;
+font-family: 'Pixelify Sans';
+    
+}
+input:hover{
+  background:pink;
+  }
+#container{
+  margin: 0 auto;
+  
+}
+
+button{
+ display:block;
+ justify-content: space-between;
+ text-align: center;
+ margin:  0 auto;
+ height: 50px;
+ width: 75px;
+}
+
+  
+button:hover{
+  background:pink;
+  }
+
+#text{
+  font-family: 'Pixelify Sans';
+  text-align:center;
+  font-size: 30px;
+  margin:0 auto;
+}
+
+body{
+ 
+    background: 
+    url("https://static.vecteezy.com/system/resources/previews/024/706/926/non_2x/pink-sky-background-with-clouds-and-stars-pastel-color-abstract-dreaming-illustration-magic-heaven-wallpaper-cute-unicorn-landscape-vector.jpg") 
+}
+
+/* Many lines of css code for design I have. Container holding everything is centered so everything is in the middle. All of the font is in pixelify sans, which I got from google fonts using @import. I used a hover statment to make the boxes pink when you hover over them. And the background is a picture I got off google. I set the background to the url of the picture in the body part of the css. This imported the image to the background of my pythagorean theorem calculator*/
